@@ -127,6 +127,14 @@ class TeamAcreate(CTkFrame):
         self.tem_especial=re.search(r'[^A-za-z0-9]', senha)
         return len(self.letras) >= 4 and self.tem_maiuscula and self.tem_especial
     
+    def email_valido(email):
+        padrao = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+
+        if re.match(padrao, email):
+            return True
+        else:
+            return False
+
     def cadastrar(self):
         self.nome = self.entry_usuário.get()
         self.email = self.entry_email.get()
@@ -136,8 +144,8 @@ class TeamAcreate(CTkFrame):
 
         if not self.email or not self.confirmemail or not self.senha or not self.confirmsenha or not self.nome:
             messagebox.showerror("Erro", "Todos os campos devem ser preenchidos.")
-        elif "@" not in self.email or ".com" not in self.email:
-            messagebox.showerror("Erro", "Estrutura de E-mail inválida")
+        elif not re.match(self.email_valido, self.email):
+            messagebox.showerror("Erro", "Formato de E-mail inválido.")
         elif self.email != self.confirmemail:
             messagebox.showerror("Erro", "O seu email não coincide com a confirmação")
         elif self.senha != self.confirmsenha:

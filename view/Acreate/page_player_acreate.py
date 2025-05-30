@@ -125,6 +125,14 @@ class PlayerAcreate(CTkFrame):
 
         return (len(senha) >= 4 and letras and maiusculas and numeros and especiais)
 
+    def email_valido(email):
+        padrao = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+
+        if re.match(padrao, email):
+            return True
+        else:
+            return False
+
     def gerar_id(self):
         return str(uuid.uuid4())[:8]
 
@@ -137,8 +145,8 @@ class PlayerAcreate(CTkFrame):
 
         if not self.email or not self.confirmemail or not self.senha or not self.confirmsenha or not self.nome:
             messagebox.showerror("Erro", "Todos os campos devem ser preenchidos.")
-        elif "@" not in self.email or ".com" not in self.email:
-            messagebox.showerror("Erro", "Estrutura de E-mail inválida")
+        elif not re.match(self.email_valido, self.email):
+            messagebox.showerror("Erro", "Formato de E-mail inválido.")
         elif self.email != self.confirmemail:
             messagebox.showerror("Erro", "O seu email não coincide com a confirmação")
         elif self.senha != self.confirmsenha:
