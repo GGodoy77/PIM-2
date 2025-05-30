@@ -1,0 +1,24 @@
+{
+    "Tomate": {
+        "nome": "Tomate",
+        "email": "gAAAAABoLWbsDP3hk-4r16xyEXhpAQw0dPTWjvsxGt4ZC4wQDyK1tU0vR6XqQzfzJQSDPnsab79h1vUFmLSz-4nDYgbk2D2oOwQG6Tci6aZHpmkPzU3dwB8=",
+        "senha": "$2b$12$QTJQI1JgFBTtRu1egmhRq.XCTwViZi9e55CqK8DfBUsdX6CEiEtFC"
+    },
+    "teste": {
+        "nome": "teste",
+        "email": "gAAAAABoLXLBr_dfW_WUyI9tHwYHzNBXI85wFV_V6KeZXC963ZqQoBVViwomLhVlZpHZBK5qxSF4t8tg8rkAIVX4wf9eO_1TQw==",
+        "senha": "$2b$12$Ku0ziEGSQ7ocJYNn1d1Id.Lj2PBxb66.qh6mKp6sMlaJS7EofxT22"
+    },
+    "curintia": {
+        "nome": "curintia",
+        "email": "gAAAAABoLXOfAeeMLgJF-nJ9btzrQok-aDJNAq0dDiMYQbfDPm3eGKf7B8YAa_8ud_bYeM1orFzsX-YZbwQcNA1xxqhtYHQ78A==",
+        "senha": "$2b$12$plEuhnPE3qIxE4obZrFn/OC0M0bhsB/GxKpLKb1LHkVVoMQCn5mXu",
+        "token": "gAAAAABoLXOtOMhqQ21yK9HYqkk4VJ8MzgtHjXrqMEpBLPNw2Hdcv4C8bLVKekk6RjAn-WUFbV-ZmQJ5PyJUjANCpjhHAKZUYA==",
+        "jogadores": {
+            "A": {
+                "nome": "A",
+                "email": "gAAAAABoLXPH-GLOS8FTfqKKywtQzXCQLLIcI0TPs9R-mxzkgjTSltCCK6FN6El8YSTvLQTVO8OJRqBPPdnM2Rgz1AYv6kn_kQ=="
+            }
+        }
+    }
+}

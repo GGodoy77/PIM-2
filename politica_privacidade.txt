@@ -1,0 +1,35 @@
+Política de Privacidade do Sistema
+
+Esta Política de Privacidade descreve como suas informações pessoais são coletadas, usadas e compartilhadas quando você utiliza nosso sistema.
+
+1. Informações que Coletamos:
+   - Dados de Cadastro: Nome de usuário, endereço de e-mail e senha (hashed).
+   - Dados de Uso: Informações relacionadas à sua interação com o sistema (ex: qual time você está associado).
+   - Dados de Token: Tokens gerados ou utilizados para gerenciamento de times.
+
+2. Como Usamos Suas Informações:
+   Usamos as informações coletadas para:
+   - Fornecer, operar e manter nosso serviço.
+   - Gerenciar sua conta de usuário.
+   - Melhorar, personalizar e expandir nosso serviço.
+   - Entender e analisar como você usa nosso serviço.
+   - Desenvolver novos produtos, serviços, recursos e funcionalidades.
+   - Comunicar com você, diretamente ou através de um de nossos parceiros, para atendimento ao cliente, para lhe fornecer atualizações e outras informações relacionadas ao serviço.
+
+3. Compartilhamento de Informações:
+   Nós não compartilhamos suas informações pessoais com terceiros, exceto quando necessário para operar o serviço (ex: armazenamento de dados - se você estiver usando um serviço de nuvem) ou para cumprir obrigações legais.
+   Seus dados de jogador (nome e e-mail) são visíveis para o gerente do time ao qual você se associa.
+
+4. Segurança dos Dados:
+   A segurança de seus dados é importante para nós. Usamos criptografia forte (AES) para proteger seu e-mail e tokens armazenados, e suas senhas são armazenadas como hashes irreversíveis (bcrypt). Tomamos medidas razoáveis para proteger suas informações, mas lembre-se de que nenhum método de transmissão pela internet ou de armazenamento eletrônico é 100% seguro.
+
+5. Retenção de Dados:
+   Manteremos suas informações pessoais apenas pelo tempo necessário para os fins estabelecidos nesta Política de Privacidade, a menos que um período de retenção mais longo seja exigido ou permitido por lei.
+
+6. Seus Direitos de Proteção de Dados:
+   Você tem direitos de proteção de dados, incluindo: acesso, retificação, exclusão e portabilidade de seus dados. Para exercer esses direitos, entre em contato conosco através das opções de gerenciamento de conta no aplicativo.
+
+7. Contato:
+   Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco através de [Seu e-mail de contato ou um formulário de contato futuro].
+
+[Data da última atualização: 22 de maio de 2025]

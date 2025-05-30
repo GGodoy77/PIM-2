@@ -1,0 +1,36 @@
+{
+    "d9b9a40d": {
+        "nome": "a",
+        "email": "gAAAAABoNVA4RTn3dHPLPXhL88jaQtzxtrFL8oyudY9aRrjM32dhphqP2cOg_-rBj6iKwRV4-ifvwwrsEfwnTOK1Q6p95yGI6g==",
+        "senha": "$2b$12$axcQm6crmTlQhtWRSZ1QFuNK3E1LMi/RCHU9dtJoX5meCBKu4WfHK",
+        "convites": {
+            "2d662bf2": {
+                "tipo": "time",
+                "remetente": "irra",
+                "status": "aceito",
+                "data": "2025-05-28 19:16:26",
+                "id_time": "2d662bf2",
+                "nome_time": "irra"
+            }
+        },
+        "time_id": "2d662bf2",
+        "nome_time": "irra"
+    },
+    "b3ec9b7e": {
+        "nome": "Mainzera",
+        "email": "gAAAAABoN48mPFpGAfnrdahIb5KKtqbGZ_xeC1GDzFcfh0Ugeuw1oIPWYoNeqeorhqchA7C7Wy7aZW5D_syI9v4iKMRbJm0QQUP7R2VJxjgJ3nxLYPab8TA=",
+        "senha": "$2b$12$/aYBVOw/Og.3E6Df7zgjvu0UDOa0cCDrZymHEyFmjizFgc00jsdwC",
+        "convites": {
+            "2d662bf2": {
+                "tipo": "time",
+                "remetente": "irra",
+                "status": "aceito",
+                "data": "2025-05-28 19:33:38",
+                "id_time": "2d662bf2",
+                "nome_time": "irra"
+            }
+        },
+        "time_id": "2d662bf2",
+        "nome_time": "irra"
+    }
+}

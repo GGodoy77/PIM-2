@@ -1,0 +1,12 @@
+{
+    "teste1": {
+        "nome": "teste1",
+        "email": "gAAAAABoLWTfi6rPhkw3Zn2m1ndDZDmHGFQwONkyRSpmpXDAbuENxiurNgorq5T7lb89oxmY0_2T3geEeHwMubF17P8uWyex2Q==",
+        "senha": "$2b$12$R/OK2N3vO2Fh2/4abWs29eq29/N04L7ZwfaOj/32pZBLbOOe.WYpy"
+    },
+    "porra": {
+        "nome": "porra",
+        "email": "gAAAAABoLWUkd4CCZyvt8TbyipYZIieqfVs2KvVt12MNordivmiFhrWtIxuHTH5Eep-EvOmyor8QBxRb-MENFSK10o1pzi0sWg==",
+        "senha": "$2b$12$PTnfXP3oscyi2cPcFEK4Hum.nrw8sBJQGuSUOMjV/JFW/Ax5GSZ1e"
+    }
+}

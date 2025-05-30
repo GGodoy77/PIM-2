@@ -1,0 +1,18 @@
+{
+    "d9b9a40d": {
+        "nome": "a",
+        "email": "gAAAAABoNVA4RTn3dHPLPXhL88jaQtzxtrFL8oyudY9aRrjM32dhphqP2cOg_-rBj6iKwRV4-ifvwwrsEfwnTOK1Q6p95yGI6g==",
+        "senha": "$2b$12$axcQm6crmTlQhtWRSZ1QFuNK3E1LMi/RCHU9dtJoX5meCBKu4WfHK",
+        "convites": {
+            "542d78c0": {
+                "tipo": "convite_recrutador_time",
+                "remetente": "jonas",
+                "status": "aceito",
+                "data": "2025-05-27 18:50:53",
+                "id_time": "2d662bf2",
+                "nome_time": "irra"
+            }
+        },
+        "time_id": "2d662bf2"
+    }
+}

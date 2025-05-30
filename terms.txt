@@ -1,0 +1,35 @@
+Termos e Condições de Uso do Sistema
+
+Bem-vindo(a) ao nosso sistema. Ao se cadastrar e utilizar este aplicativo, você concorda em cumprir e estar vinculado(a) aos seguintes termos e condições de uso. Por favor, leia-os atentamente.
+
+1. Dados Coletados:
+   Nós coletamos seu nome de usuário e e-mail para identificação e comunicação.
+   Sua senha é armazenada de forma criptografada (hash) para sua segurança.
+   Informações sobre sua associação a times e tokens são armazenadas para funcionalidades do aplicativo.
+
+2. Finalidade da Coleta de Dados:
+   Os dados são coletados exclusivamente para permitir o seu acesso e uso das funcionalidades do sistema, incluindo:
+   - Gerenciamento de conta de jogador ou time.
+   - Associação a times e uso de tokens.
+   - Comunicação essencial relacionada ao serviço.
+
+3. Segurança dos Dados:
+   Implementamos medidas de segurança técnicas e administrativas, como criptografia de e-mails e senhas, para proteger seus dados contra acessos não autorizados, alterações, perdas ou divulgação indevida. No entanto, nenhuma transmissão de dados pela internet ou método de armazenamento eletrônico é 100% seguro.
+
+4. Seus Direitos (LGPD):
+   Você tem o direito de:
+   - Acessar seus dados pessoais.
+   - Retificar dados incompletos, inexatos ou desatualizados.
+   - Solicitar a exclusão de seus dados (direito ao esquecimento).
+   - Solicitar a portabilidade dos seus dados.
+   - Revogar o consentimento a qualquer momento.
+
+5. Exclusão de Conta:
+   Você pode excluir sua conta a qualquer momento através das opções disponíveis no aplicativo. A exclusão de sua conta removerá seus dados pessoais de nossos registros, em conformidade com a LGPD.
+
+6. Alterações nos Termos:
+   Reservamo-nos o direito de modificar estes Termos e Condições a qualquer momento. A versão mais recente estará sempre disponível no aplicativo.
+
+Ao clicar em "Aceito os Termos e Condições", você confirma que leu, compreendeu e concorda com todas as cláusulas acima.
+
+[Data da última atualização: 22 de maio de 2025]

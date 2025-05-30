@@ -1,0 +1,24 @@
+{
+    "2d662bf2": {
+        "nome": "irra",
+        "email": "gAAAAABoNOJ7Cok6fellJhYKJ-4bJiQkkQRnjpE0gJl7iGsSYExigG1uonH8iimQb0KVKJ7W-p4T0cesq_82W09hsWLf_vP3FA==",
+        "senha": "$2b$12$PC0kr4Guax.JmD5HJUJV.ufaOiVJ2Dzf/nmTywFSUgXn9JPAu1z4q",
+        "token_recrutadores": "gAAAAABoNTwriVzmKrR-MArNR0OQM30E_wthizXv56ZDntHrbogLpbt_0PeBuH3gQjI5UuhPmoM_Bhg5zaZRXUV0VC2NyatkNvO9H6sdbGmNLwkrW2LY0uBX3Oz5rseQ5VzcC9416n6S",
+        "jogadores": {
+            "d9b9a40d": {
+                "nome": "a",
+                "email": "gAAAAABoNVA4RTn3dHPLPXhL88jaQtzxtrFL8oyudY9aRrjM32dhphqP2cOg_-rBj6iKwRV4-ifvwwrsEfwnTOK1Q6p95yGI6g=="
+            },
+            "b3ec9b7e": {
+                "nome": "Mainzera",
+                "email": "gAAAAABoN48mPFpGAfnrdahIb5KKtqbGZ_xeC1GDzFcfh0Ugeuw1oIPWYoNeqeorhqchA7C7Wy7aZW5D_syI9v4iKMRbJm0QQUP7R2VJxjgJ3nxLYPab8TA="
+            }
+        },
+        "recrutadores": {
+            "542d78c0": {
+                "nome": "jonas",
+                "email": "gAAAAABoN4377kcRofsHDk5FjkolpZgsci7sQDKkDVilGEP0u1ODF0mvmhXQTuGOMsWEzgDteoTW2anltCqB475K_2IvO0pOvA=="
+            }
+        }
+    }
+}

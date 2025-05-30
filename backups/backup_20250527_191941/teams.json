@@ -1,0 +1,25 @@
+{
+    "2d662bf2": {
+        "nome": "irra",
+        "email": "gAAAAABoNOJ7Cok6fellJhYKJ-4bJiQkkQRnjpE0gJl7iGsSYExigG1uonH8iimQb0KVKJ7W-p4T0cesq_82W09hsWLf_vP3FA==",
+        "senha": "$2b$12$PC0kr4Guax.JmD5HJUJV.ufaOiVJ2Dzf/nmTywFSUgXn9JPAu1z4q",
+        "token_jogadores": "gAAAAABoNTljlY-4siYbVR2hj2brmazw96_f237MslhxmCf99tvig6QOuhcFfj7yL3gAbWV9GjfqBcju82UfeNPkB21XoUtrtW5t-Yjk5csj3eElSB2hY1RHwyg7stFr2kNkKjZC2ptK",
+        "token_recrutadores": "gAAAAABoNTwriVzmKrR-MArNR0OQM30E_wthizXv56ZDntHrbogLpbt_0PeBuH3gQjI5UuhPmoM_Bhg5zaZRXUV0VC2NyatkNvO9H6sdbGmNLwkrW2LY0uBX3Oz5rseQ5VzcC9416n6S",
+        "recrutadores": {
+            "f38a69b5": {
+                "nome": "kaique",
+                "email": "gAAAAABoNU7BuDZyHuRmurjt3fUAM-KmRJPRJLVk7QUjnvLc9DOSPq6vjYPenj8E7WjMd1bGIfImChbNIM8iqmvOaVTronP2hw=="
+            },
+            "542d78c0": {
+                "nome": "jonas",
+                "email": "gAAAAABoNV1ysIjLb0EbgKcbPi4OhnoI-9drl0qA4nYVndtlM_iBj8K6w0WBpMlQzucZl17J2da34N-cMzpcL7zr2P1HyhJ_Jw=="
+            }
+        },
+        "jogadores": {
+            "d9b9a40d": {
+                "nome": "a",
+                "email": "gAAAAABoNjf6e9mUhRqvdqRsu7_m4qDE7TEf0R8RsLlHrbOOfjTykCXrZnT5uDgdT74tp0WB1_9uW8QMaqSLVt68vsYDkiAnyNT1KtM5VpOls2ohQ4GsQI_uMhEeNELi32Iva3RSXKChEGGGMy9CNxgs5OJ5XK8do_P1fG433wyXorZlaAIi_MfzkTxWvYqeZLWr8peO2fDqy8aZGJ7PX4GzhinIyub4gw=="
+            }
+        }
+    }
+}
