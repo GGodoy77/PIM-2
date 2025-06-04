@@ -456,23 +456,18 @@ class PlayerMainpage(CTkFrame):
             return
 
         for sender_id, invite_info in convites_pendentes.items():
-            # Retrieve the specific fields as stored in players.json
             tipo_convite = invite_info.get("tipo", "desconhecido")
             remetente = invite_info.get("remetente", "Desconhecido")
-            data = invite_info.get("data", "Sem data") # Use "data" as primary, no "tempo" fallback if you stick to "data"
+            data = invite_info.get("data", "Sem data")
 
-            # Specific for team invites
-            nome_time_convite = invite_info.get("nome_time", None) # Get the specific team name from the invite data
-            id_time_convite = invite_info.get("id_time", sender_id) # Get the specific team ID from the invite data, fallback to sender_id if somehow missing
+            nome_time_convite = invite_info.get("nome_time", None) 
+            id_time_convite = invite_info.get("id_time", sender_id) 
 
             invite_frame = CTkFrame(self.area_conteudo, corner_radius=10, width=500)
             invite_frame.pack(pady=10, padx=20, fill='x')
 
             if tipo_convite == "time":
-                # Ensure the sender_id is indeed the team_id
                 if id_time_convite != sender_id:
-                    # This implies a structural issue in how invites are keyed.
-                    # For now, we'll assume sender_id is the team_id.
                     pass 
 
                 display_remetente = nome_time_convite if nome_time_convite else remetente
@@ -526,11 +521,9 @@ class PlayerMainpage(CTkFrame):
                 messagebox.showerror("Erro", "Time do convite não encontrado.")
                 return
 
-            # Verifica se já é membro
             if player_id in team_info.get("jogadores", {}):
                 messagebox.showinfo("Informação", "Você já faz parte deste time.")
             else:
-                # Adiciona no time
                 if "jogadores" not in team_info:
                     team_info["jogadores"] = {}
 
@@ -542,7 +535,6 @@ class PlayerMainpage(CTkFrame):
                 player_info["time_id"] = sender_id
                 player_info["nome_time"] = team_info.get("nome")
 
-            # Atualiza convite
             if "convites" in player_info and sender_id in player_info["convites"]:
                 player_info["convites"][sender_id]["status"] = "aceito"
 

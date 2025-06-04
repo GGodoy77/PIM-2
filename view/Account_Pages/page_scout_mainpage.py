@@ -593,7 +593,6 @@ class ScoutMainpage(CTkFrame):
             messagebox.showerror("Erro", "Dados do recrutador não encontrados na sessão. Faça login novamente.")
             return
 
-        # Determine o id_time e nome_time do recrutador atual, se houver
         self.id_time_do_recrutador = None
         self.nome_time_do_recrutador = None
         if os.path.exists("teams.json"):
@@ -618,9 +617,8 @@ class ScoutMainpage(CTkFrame):
 
             if termo in nome_jogador or termo in email_jogador:
                 status_convite = "nenhum"
-                # Verifica se há um convite pendente deste recrutador
                 if "convites" in info and id_recrutador in info["convites"]:
-                    if info["convites"][id_recrutador].get("tipo") == "convite_recrutador_time": # Tipo de convite de recrutador para time
+                    if info["convites"][id_recrutador].get("tipo") == "convite_recrutador_time":
                         status_convite = info["convites"][id_recrutador].get("status", "pendente")
 
                 encontrados.append({
@@ -628,7 +626,7 @@ class ScoutMainpage(CTkFrame):
                     "nome": info.get("nome"),
                     "email": email_jogador,
                     "status_convite": status_convite,
-                    "id_time_jogador": info.get("time_id") # Pega o time atual do jogador
+                    "id_time_jogador": info.get("time_id") 
                 })
 
         if encontrados:
@@ -637,9 +635,6 @@ class ScoutMainpage(CTkFrame):
                 frame_jogador.pack(pady=5, fill='x', padx=10)
                 
                 texto_jogador = f"Nome: {jogador['nome']}\nEmail: {jogador['email']}"
-                # Opcionalmente, você pode exibir o time atual do jogador aqui
-                # if jogador['id_time_jogador']:
-                #     texto_jogador += f"\nTime: {jogador['id_time_jogador']}" 
 
                 CTkLabel(frame_jogador, text=texto_jogador).pack(side='left', padx=5)
 
@@ -647,7 +642,7 @@ class ScoutMainpage(CTkFrame):
                     CTkLabel(frame_jogador, text="Convite Pendente", text_color="orange").pack(side='right', padx=5)
                 elif jogador['id_time_jogador'] is not None:
                     CTkLabel(frame_jogador, text="Já está em um time", text_color="gray").pack(side='right', padx=5)
-                elif self.id_time_do_recrutador: # Mostra o botão de convite APENAS se o recrutador estiver em um time
+                elif self.id_time_do_recrutador: 
                     CTkButton(frame_jogador, text="Convidar para o Time", fg_color='blue',
                                command=lambda p=jogador: self.convidar_jogador_scout(p['id'], p['nome'])).pack(side='right', padx=5)
                 else:
@@ -692,12 +687,10 @@ class ScoutMainpage(CTkFrame):
             messagebox.showerror("Erro", "Jogador não encontrado.")
             return
         
-        # Verifica se o jogador já está em um time
         if info_jogador.get("time_id") is not None:
             messagebox.showinfo("Informação", f"{nome_jogador} já está em um time. Não é possível enviar convite.")
             return
         
-        # Verifica se o jogador já possui um convite pendente DESTE recrutador
         if "convites" not in info_jogador:
             info_jogador["convites"] = {}
 
